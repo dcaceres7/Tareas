@@ -1,7 +1,6 @@
 #include "Principal.h"
 #include "ui_Principal.h"
 #include "Duplicado.h"
-#include "ListaArreglo.h"
 
 Principal::Principal(QWidget *parent) :
     QWidget(parent),
@@ -23,10 +22,4 @@ void Principal::on_pushButton_clicked()
     dpl->show();
 
 
-}
-
-void Principal::on_pushButton_2_clicked()
-{
-    ListaArreglo *lst=new ListaArreglo();
-    lst->play();
 }
