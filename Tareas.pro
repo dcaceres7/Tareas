@@ -14,12 +14,20 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
     Principal.cpp \
-    Duplicado.cpp
+    Duplicado.cpp \
+    ListaArreglo.cpp \
+    Apuntadores.cpp \
+    Carta.cpp
 
 HEADERS  += \
     Principal.h \
-    Duplicado.h
+    Duplicado.h \
+    ListaArreglo.h \
+    Apuntadores.h \
+    Carta.h
 
 FORMS    += \
     Principal.ui \
-    Duplicado.ui
+    Duplicado.ui \
+    ListaArreglo.ui \
+    Apuntadores.ui
