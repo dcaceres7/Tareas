@@ -22,6 +22,11 @@ private slots:
 
     void on_pushButton_3_clicked();
 
+<<<<<<< HEAD
+=======
+    void on_pushButton_4_clicked();
+
+>>>>>>> origin/master
 private:
     Ui::Principal *ui;
 };

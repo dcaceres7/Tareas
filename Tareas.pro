@@ -17,17 +17,32 @@ SOURCES += main.cpp\
     Duplicado.cpp \
     ListaArreglo.cpp \
     Apuntadores.cpp \
+<<<<<<< HEAD
     Carta.cpp
+=======
+    Carta.cpp \
+    Pilas.cpp
+>>>>>>> origin/master
 
 HEADERS  += \
     Principal.h \
     Duplicado.h \
     ListaArreglo.h \
     Apuntadores.h \
+<<<<<<< HEAD
     Carta.h
+=======
+    Carta.h \
+    Pilas.h
+>>>>>>> origin/master
 
 FORMS    += \
     Principal.ui \
     Duplicado.ui \
     ListaArreglo.ui \
+<<<<<<< HEAD
     Apuntadores.ui
+=======
+    Apuntadores.ui \
+    Pilas.ui
+>>>>>>> origin/master
