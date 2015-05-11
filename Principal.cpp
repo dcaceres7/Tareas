@@ -3,6 +3,7 @@
 #include "Duplicado.h"
 #include "ListaArreglo.h"
 #include "Apuntadores.h"
+#include "Pilas.h"
 
 Principal::Principal(QWidget *parent) :
     QWidget(parent),
@@ -36,4 +37,10 @@ void Principal::on_pushButton_3_clicked()
 {
     Apuntadores *apt=new Apuntadores();
     apt->show();
+}
+
+void Principal::on_pushButton_4_clicked()
+{
+    Pilas *pl=new Pilas();
+    pl->show();
 }
