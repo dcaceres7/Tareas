@@ -17,49 +17,22 @@ SOURCES += main.cpp\
     Duplicado.cpp \
     ListaArreglo.cpp \
     Apuntadores.cpp \
-<<<<<<< HEAD
     Carta.cpp \
     Pilas.cpp \
     Cola.cpp
-=======
-<<<<<<< HEAD
-    Carta.cpp
-=======
-    Carta.cpp \
-    Pilas.cpp
->>>>>>> origin/master
->>>>>>> origin/master
 
 HEADERS  += \
     Principal.h \
     Duplicado.h \
     ListaArreglo.h \
     Apuntadores.h \
-<<<<<<< HEAD
     Carta.h \
     Pilas.h \
     Cola.h
-=======
-<<<<<<< HEAD
-    Carta.h
-=======
-    Carta.h \
-    Pilas.h
->>>>>>> origin/master
->>>>>>> origin/master
 
 FORMS    += \
     Principal.ui \
     Duplicado.ui \
     ListaArreglo.ui \
-<<<<<<< HEAD
     Apuntadores.ui \
     Pilas.ui
-=======
-<<<<<<< HEAD
-    Apuntadores.ui
-=======
-    Apuntadores.ui \
-    Pilas.ui
->>>>>>> origin/master
->>>>>>> origin/master
