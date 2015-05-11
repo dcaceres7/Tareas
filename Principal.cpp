@@ -1,6 +1,8 @@
 #include "Principal.h"
 #include "ui_Principal.h"
 #include "Duplicado.h"
+#include "ListaArreglo.h"
+#include "Apuntadores.h"
 
 Principal::Principal(QWidget *parent) :
     QWidget(parent),
@@ -22,4 +24,16 @@ void Principal::on_pushButton_clicked()
     dpl->show();
 
 
+}
+
+void Principal::on_pushButton_2_clicked()
+{
+    ListaArreglo *lst=new ListaArreglo();
+    lst->play();
+}
+
+void Principal::on_pushButton_3_clicked()
+{
+    Apuntadores *apt=new Apuntadores();
+    apt->show();
 }
