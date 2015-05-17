@@ -5,6 +5,7 @@
 #include "Apuntadores.h"
 #include "Pilas.h"
 #include "Cola.h"
+#include "Conjuntos.h"
 
 Principal::Principal(QWidget *parent) :
     QWidget(parent),
@@ -50,4 +51,16 @@ void Principal::on_pushButton_5_clicked()
 {
     Cola *cl=new Cola();
     cl->play();
+}
+
+void Principal::on_pushButton_6_clicked()
+{
+    Conjuntos *cj=new Conjuntos();
+    cj->insertarA(1);
+    cj->insertarA(2);
+    cj->insertarA(4);
+    cj->insertarB(3);
+    cj->insertarB(1);
+    cj->insertarB(4);
+    cj->imprimir();
 }

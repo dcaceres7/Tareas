@@ -19,7 +19,8 @@ SOURCES += main.cpp\
     Apuntadores.cpp \
     Carta.cpp \
     Pilas.cpp \
-    Cola.cpp
+    Cola.cpp \
+    Conjuntos.cpp
 
 HEADERS  += \
     Principal.h \
@@ -28,7 +29,8 @@ HEADERS  += \
     Apuntadores.h \
     Carta.h \
     Pilas.h \
-    Cola.h
+    Cola.h \
+    Conjuntos.h
 
 FORMS    += \
     Principal.ui \
